@@ -1,0 +1,13 @@
+tree:
+  -
+    id: f5201501-d990-4f8a-9a6c-0da2d4ec57a0
+    title: About
+    url: /about
+  -
+    id: 421a0938-a5ed-4639-8164-1ced30d717fd
+    title: Blog
+    url: /blog
+  -
+    id: 82ade51b-2bba-441f-9e52-356f84c0bd22
+    title: 'Digital Garden'
+    url: /digital-garden

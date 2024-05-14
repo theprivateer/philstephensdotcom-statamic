@@ -1,0 +1,10 @@
+<nav class="article-list">
+    {{ slot }}
+    {{ collection:blog :limit="limit" }}
+    <a href="{{ url }}">
+        <span>{{ title }}</span>
+        <hr>
+        <time datetime="{{ date | format('Y-m-d') }}">{{ date | format('F j') }}</time>
+    </a>
+    {{ /collection:blog }}
+</nav>

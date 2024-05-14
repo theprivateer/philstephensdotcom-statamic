@@ -1,0 +1,63 @@
+title: Album
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: artist
+            field:
+              type: text
+              display: Artist
+          -
+            handle: album_artwork
+            field:
+              max_files: 1
+              container: images
+              folder: 365albums
+              type: assets
+              display: 'Album Artwork'
+          -
+            handle: released
+            field:
+              type: text
+              display: Released
+          -
+            handle: listen_link
+            field:
+              input_type: url
+              type: text
+              display: 'Listen Link'
+          -
+            handle: content
+            field:
+              type: markdown
+              display: Content
+              localizable: true
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required

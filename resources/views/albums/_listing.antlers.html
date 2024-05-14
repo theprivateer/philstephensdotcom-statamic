@@ -1,0 +1,10 @@
+<nav class="article-list">
+    {{ slot }}
+    {{ collection:albums :limit="limit" }}
+    <a href="{{ url }}">
+        <span>{{ title }}</span>
+        <hr>
+        <span>{{ artist }}</span>
+    </a>
+    {{ /collection:albums }}
+</nav>
