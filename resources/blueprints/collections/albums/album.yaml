@@ -21,8 +21,7 @@ tabs:
             handle: album_artwork
             field:
               max_files: 1
-              container: images
-              folder: 365albums
+              folder: images/365albums
               type: assets
               display: 'Album Artwork'
           -
