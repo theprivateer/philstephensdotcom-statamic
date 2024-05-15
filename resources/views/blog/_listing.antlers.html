@@ -1,10 +1,21 @@
 <nav class="article-list">
     {{ slot }}
-    {{ collection:blog :limit="limit" }}
-    <a href="{{ url }}">
-        <span>{{ title }}</span>
-        <hr>
-        <time datetime="{{ date | format('Y-m-d') }}">{{ date | format('F j') }}</time>
-    </a>
+    {{ collection:blog :limit="limit" as="articles" }}
+        {{ articles group_by="date|Y"}}
+            {{ groups }}
+                {{ if show_year }}
+                <h4>
+                    <time>{{ $group }}</time>
+                </h4>
+                {{ /if }}
+                {{ items }}
+                    <a href="{{ url }}">
+                        <span>{{ title }}</span>
+                        <hr>
+                        <time datetime="{{ date | format('Y-m-d') }}">{{ date | format('F j') }}</time>
+                    </a>
+                {{ /items }}
+            {{ /groups }}
+        {{ /articles }}
     {{ /collection:blog }}
 </nav>
