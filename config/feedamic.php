@@ -207,16 +207,7 @@ return [
     |
     */
 
-    'author' => [
-        'handle' => 'author',
-
-        // true to include the email in the feed, false to exclude - atom only
-        'email' => false,
-
-        // the name pattern to use for the author name
-        'name' => '[name]',
-    ],
-
+    'author' => false,
 
     /*
     |--------------------------------------------------------------------------
