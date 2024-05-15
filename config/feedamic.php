@@ -18,11 +18,24 @@ return [
     */
 
     'feeds' => [
+        'albums' => [
+            'title' => '365 Albums Project',
+            'description' => '',
+            'routes' => [
+                'atom' => '/albums/feed/atom',
+                'rss' => '/albums/feed'
+            ],
+            'alt_url' => '',
+            'collections' => [
+                'albums'
+            ],
+            'taxonomies' => [],
+        ],
         'blog' => [
             /*
             | The title for the feed
             */
-            'title' => '',
+            'title' => 'Blog Articles',
 
             /*
             | The description (RSS) or subtitle (Atom) for the feed
