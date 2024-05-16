@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2da44e96936b2921a1c22eed5a95aed5",
+    "content-hash": "27f34342806d3290195ac8898b8d1c10",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2476,16 +2476,16 @@
         },
         {
             "name": "mitydigital/feedamic",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mitydigital/statamic-feedamic.git",
-                "reference": "e1cb5a69785473574767ff178e2bf054d5184e77"
+                "reference": "2f077b3a021a070ccc78b21a06e3b7e7726341d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mitydigital/statamic-feedamic/zipball/e1cb5a69785473574767ff178e2bf054d5184e77",
-                "reference": "e1cb5a69785473574767ff178e2bf054d5184e77",
+                "url": "https://api.github.com/repos/mitydigital/statamic-feedamic/zipball/2f077b3a021a070ccc78b21a06e3b7e7726341d8",
+                "reference": "2f077b3a021a070ccc78b21a06e3b7e7726341d8",
                 "shasum": ""
             },
             "require": {
@@ -2526,9 +2526,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mitydigital/statamic-feedamic/issues",
-                "source": "https://github.com/mitydigital/statamic-feedamic/tree/2.3.2"
+                "source": "https://github.com/mitydigital/statamic-feedamic/tree/2.3.3"
             },
-            "time": "2024-05-08T01:43:30+00:00"
+            "time": "2024-05-15T22:48:52+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4444,20 +4444,20 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.1.0",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "5497ef28875fbbd2c6b2681fb73eec14ea9a21d9"
+                "reference": "024aad4c576240c7d354161a3f69d5d2dfa9ca03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/5497ef28875fbbd2c6b2681fb73eec14ea9a21d9",
-                "reference": "5497ef28875fbbd2c6b2681fb73eec14ea9a21d9",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/024aad4c576240c7d354161a3f69d5d2dfa9ca03",
+                "reference": "024aad4c576240c7d354161a3f69d5d2dfa9ca03",
                 "shasum": ""
             },
             "require": {
-                "ajthinking/archetype": "^2.0",
+                "ajthinking/archetype": "^1.0.3 || ^2.0",
                 "composer/semver": "^3.4",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
@@ -4535,7 +4535,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.1.0"
+                "source": "https://github.com/statamic/cms/tree/v5.2.0"
             },
             "funding": [
                 {
@@ -4543,7 +4543,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-14T15:33:22+00:00"
+            "time": "2024-05-15T15:43:10+00:00"
         },
         {
             "name": "statamic/stringy",

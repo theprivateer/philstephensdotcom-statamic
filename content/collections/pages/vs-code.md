@@ -4,7 +4,8 @@ blueprint: page
 title: 'My Visual Studio Code Setup'
 author: 7714844a-1d73-4720-9a32-72b763882513
 updated_by: 7714844a-1d73-4720-9a32-72b763882513
-updated_at: 1715650214
+updated_at: 1715821172
+parent: home
 ---
 ## Theme
 
@@ -23,4 +24,5 @@ My custom settings are inspired by [Caleb Porzio](https://makevscodeawesome.com)
 - [Toggle](https://marketplace.visualstudio.com/items?itemName=rebornix.toggle)
 - [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate)
 - [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+- [Antlers Toolbox](https://marketplace.visualstudio.com/items?itemName=stillat-llc.vscode-antlers)
 - Simple Project Switcher (a private VSIX extension from    Caleb Porzio)

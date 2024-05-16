@@ -13,7 +13,7 @@
         "laravel/framework": "^11",
         "laravel/tinker": "^2.9",
         "mitydigital/feedamic": "^2.3",
-        "statamic/cms": "^5.1"
+        "statamic/cms": "^5.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
