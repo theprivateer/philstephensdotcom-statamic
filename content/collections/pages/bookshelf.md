@@ -4,7 +4,7 @@ blueprint: page
 title: Bookshelf
 author: 7714844a-1d73-4720-9a32-72b763882513
 updated_by: 7714844a-1d73-4720-9a32-72b763882513
-updated_at: 1715650165
+updated_at: 1715832841
 parent: home
 ---
 <h2 id="fiction">Fiction</h2>
@@ -110,7 +110,9 @@ parent: home
 
 ## Want to Read
 
+* [Slow Productivity](https://www.kobo.com/au/en/ebook/slow-productivity-2) by Cal Newport
 * [Everything by Derek Sivers](https://sive.rs/#mybooks)
 * [Agency](https://www.kobo.com/au/en/ebook/agency-11) William Gibson
+* [Die With Zero](https://www.kobo.com/au/en/ebook/die-with-zero-3) by Bill Perkins
 * [An Elegant Puzzle](https://www.kobo.com/au/en/ebook/an-elegant-puzzle) Will Larson
 * [Do Conversation](https://thedobook.co/products/do-conversation-there-is-no-such-thing-as-small-talk) Robert Poynton
