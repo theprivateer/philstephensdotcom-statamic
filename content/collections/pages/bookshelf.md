@@ -4,7 +4,7 @@ blueprint: page
 title: Bookshelf
 author: 7714844a-1d73-4720-9a32-72b763882513
 updated_by: 7714844a-1d73-4720-9a32-72b763882513
-updated_at: 1715832841
+updated_at: 1717501285
 parent: home
 ---
 <h2 id="fiction">Fiction</h2>
@@ -44,6 +44,7 @@ parent: home
 
 #### 2024
 
+* [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) by Ross Edgley
 * [Do Agile](https://thedobook.co/products/do-agile-futureproof-your-mindset-stay-grounded) by Tim Drake
 * [Do Pause](https://thedobook.co/products/do-pause-you-are-not-a-to-do-list) by Robert Poynton
 * [Do Walk](https://thedobook.co/products/do-walk) by Libby DeLana
